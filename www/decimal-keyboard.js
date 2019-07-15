@@ -69,7 +69,7 @@ DecimalKeyboard.addDecimal = function(){
 
 		}
 	}
-
+    valueToSet = valueToSet + '0';
     activeElement.value = valueToSet;
 };
 
